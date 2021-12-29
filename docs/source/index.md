@@ -47,3 +47,30 @@ source_suffix = {
 }
 ```
 
+## Change Layout to sphinx-material
+
+Resource: https://bashtage.github.io/sphinx-material/index.html
+
+Install layout:
+```
+poetry install sphinx-material
+```
+
+Change configuration under `docs/source/conf.py`:
+```
+html_theme = 'sphinx_material'
+```
+
+## Build and show html
+
+Inside `./docs` run:
+```
+poetry run make html
+```
+
+Display index file:
+```
+xdg-open docs/source/index.html
+```
+
+
