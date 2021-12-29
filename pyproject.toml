@@ -8,6 +8,7 @@ authors = ["Your Name <you@example.com>"]
 python = "^3.10"
 pytest = "^6.2.5"
 Sphinx = "^4.3.2"
+myst-parser = "^0.16.1"
 
 [tool.poetry.dev-dependencies]
 
